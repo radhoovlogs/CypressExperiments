@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "cypress": "^13.17.0",
+    "faker": "^6.6.6",
+    "faker-js": "^1.0.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1"
+  },
+  "name": "cypress-plain",
+  "version": "1.0.0",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
