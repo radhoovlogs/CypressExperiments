@@ -4,6 +4,6 @@ describe('On Primaria Cluj', () => {
 
       cy.get('#menu-item-459041 a').invoke('removeAttr', 'target').click();
 
-      cy.title().should('equal', 'Sport în Cluj-Napoca – Complex agrement') 
+      cy.title().should('equal', 'Sport în Cluj-Napoca – Complex agrement');
   })
 })
