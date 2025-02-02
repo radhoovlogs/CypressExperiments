@@ -17,8 +17,7 @@ jobs:
   lint:
     runs-on: ubuntu-24.04
     steps:
-      - name: Super-Linter
+      - name: ESLint (JS/TS) Action 
       # You may pin to the exact commit or the version.
-      # uses: super-linter/super-linter@b92721f792f381cedc002ecdbb9847a15ece5bb8
-        uses: super-linter/super-linter@v7.1.0
-          
+      # uses: iCrawl/action-eslint@ff2a58dcbc1aaec51815d58e8bf70962c4f2b557
+        uses: iCrawl/action-eslint@v1
